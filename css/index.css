@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul,li{
+    list-style: none;
+}
+/* 헤더 영역 */
+header{
+    width: 1200px;
+    background-color: lightgray;
+}
+/* 로고 영역 / 헤더 메뉴 */
+.header-1{
+    display: flex;
+    justify-content: space-between;
+}
+/* 로고 영역 */
+.header-logo{
+    width: 300px;
+    background-color: lightblue;
+}
+.header-logo img{
+    width: 100%;
+}
+/* 헤더 메뉴 */
+.header-menu{
+    width: 500px;
+    background-color: lightgreen;
+}
+.header-menu-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+/* 헤더 top / search */
+.header-2{
+
+}
