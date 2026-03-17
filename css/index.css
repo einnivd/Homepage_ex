@@ -115,12 +115,13 @@ main h3{
 .main-menu{
     display: flex;
     align-items: center;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     /* background-color: brown; */
 }
 .main-menu li{
     margin: 5px 30px;
+    font-size: 15px;
     /* background-color: aqua; */
 }
 .main-menu .line{
@@ -128,7 +129,7 @@ main h3{
     height: 18px;
     /* margin: 10px; */
     /* display: inline-block; */
-    background-color: #333;
+    background-color: #ccc;
 }
 /* 랭킹 기준 */
 .rank{
@@ -141,6 +142,7 @@ main h3{
     margin: 5px 5px 5px 0;
     padding: 3px 15px;
     background-color: #ccc;
+    font-size: 15px;
     color: black;
 }
 .rank .present{
@@ -203,19 +205,20 @@ main h3{
 /* 제품명 */
 .item-name{
     margin: 5px 0;
+    font-size: 13px;
 }
 /* 할인율/가격 */
 .text-1{
     display: flex;
     gap: 5px;
     margin: 5px 0;
+    font-weight: bold;
+    font-size: 17px;
 }
 .text-1 .discount{
     color: red;
-    font-weight: bold;
 }
 .text-1 .price{
-    font-weight: bold;
 }
 /* 쿠폰/무료배송 */
 .text-2{
