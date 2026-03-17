@@ -9,106 +9,320 @@
   <body>
     <!-- 전체 영역 -->
     <div class="wrap">
-      <!-- 헤더 영역 -->
+      <!-- 헤더 -->
       <header>
-        <!-- 로고 영역 / 헤더 메뉴 -->
-        <div class="header-1">
-          <!-- 로고 영역 -->
-          <div class="header-logo">
-            <a href="#"><img src="images/29cm_logo.png" alt="29CM 로고" /></a>
+        <div class="inner">
+          <!-- 로고 영역 / 나의 메뉴 -->
+          <div class="header-1">
+            <!-- 로고 영역 -->
+            <div class="header-logo">
+              <a href="#"><img src="images/29cm_logo.png" alt="29CM 로고" /></a>
+            </div>
+            <!-- 나의 메뉴 -->
+            <div class="mymenu">
+              <ul class="mymenu-list">
+                <li class="mymenu-icon">
+                  <img src="images/user.png" alt="유저" />
+                  <p>my page</p>
+                </li>
+                <li class="mymenu-icon">
+                  <img src="images/heart.png" alt="하트" />
+                  <p>my like</p>
+                </li>
+                <li class="mymenu-icon">
+                  <img src="images/shoppingbag.png" alt="쇼핑백" />
+                  <p>shopping bag</p>
+                </li>
+                <li class="mymenu-icon">
+                  <img src="images/lock.png" alt="로그인" />
+                  <p>my login</p>
+                </li>
+              </ul>
+            </div>
           </div>
-          <!-- 헤더 메뉴 -->
-          <div class="header-menu">
-            <ul class="header-menu-list">
-              <li>my page</li>
-              <li>my like</li>
-              <li>shopping bag</li>
-              <li>my login</li>
+          <!-- 헤더 top / 검색 -->
+          <div class="header-2">
+            <!-- 헤더 top -->
+            <div class="header-top">
+              <ul class="top-menu">
+                <li><h1>Special-Order</h1></li>
+                <li><h1>Showcase</h1></li>
+                <li><h1>PT</h1></li>
+                <li><h1>29Magazine</h1></li>
+              </ul>
+            </div>
+            <!-- 검색 영역 -->
+            <div class="search-img">
+              <!-- 검색창 -->
+              <input type="text" />
+              <!-- 검색 이미지 -->
+              <a href="#" class="search">
+                <img src="images/search.png" alt="검색" />
+              </a>
+            </div>
+          </div>
+          <!-- 헤더 bottom -->
+          <div class="header-3">
+            <ul class="header-btm">
+              <li><h3>BEST</h3></li>
+              <li><h3>WOMEN</h3></li>
+              <li><h3>MEN</h3></li>
+              <li><h3>INTERIOR</h3></li>
+              <li><h3>KITCHEN</h3></li>
             </ul>
           </div>
-        </div>
-        <!-- 헤더 top / search -->
-        <div class="header-2">
-          <div class="header-top">
-            <ul class="top-menu">
-              <li>Special-Order</li>
-              <li>Showcase</li>
-              <li>PT</li>
-              <li>29Magazine</li>
-            </ul>
-          </div>
-          <input type="text" />
-        </div>
-        <!-- 헤더 bottom -->
-        <div class="header-3">
-          <ul>
-            <li>BEST</li>
-            <li>WOMEN</li>
-            <li>MEN</li>
-            <li>INTERIOR</li>
-            <li>KITCHEN</li>
-          </ul>
         </div>
       </header>
       <!-- 메인 영역 -->
       <main>
-        <!-- BEST -->
-        <h3>BEST</h3>
-        <!-- 메인 메뉴 -->
-        <ul>
-          <li>전체</li>
-          <li>의류</li>
-          <li>가방</li>
-          <li>슈즈</li>
-          <li>액세서리</li>
-          <li>주얼리</li>
-          <li>가구/인테리어</li>
-        </ul>
-        <!-- 랭킹 기준 -->
-        <ul>
-          <li>실시간</li>
-          <li>일간</li>
-          <li>주간</li>
-          <li>월간</li>
-        </ul>
+        <div class="inner">
+          <!-- BEST -->
+          <h3>BEST</h3>
+          <!-- 메인 메뉴 -->
+          <nav>
+            <ul class="main-menu">
+              <li>전체</li>
+              <span class="line"></span>
+              <li>의류</li>
+              <span class="line"></span>
+              <li>가방</li>
+              <span class="line"></span>
+              <li>슈즈</li>
+              <span class="line"></span>
+              <li>액세서리</li>
+              <span class="line"></span>
+              <li>주얼리</li>
+              <span class="line"></span>
+              <li>가구/인테리어</li>
+            </ul>
+          </nav>
+          <!-- 랭킹 기준 -->
+          <nav>
+            <ul class="rank">
+              <li class="present">실시간</li>
+              <li>일간</li>
+              <li>주간</li>
+              <li>월간</li>
+            </ul>
+          </nav>
+        </div>
       </main>
       <!-- 아이템 영역 -->
-      <div>
-        <ul>
-          <li class="item-1"></li>
-          <li class="item-2"></li>
-          <li class="item-3"></li>
-          <li class="item-4"></li>
-          <li class="item-5"></li>
-          <li class="item-6"></li>
-          <li class="item-7"></li>
-        </ul>
-      </div>
+      <section class="item">
+        <div class="inner">
+          <ul class="item-list">
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-1.webp" alt="1위" />
+                <!-- 순위 --> 
+                <p class="number">1</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">코어드</h4>
+              <!-- 제품명 -->
+              <p class="item-name">Classic harrington jumper(beige)</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">30%</p>
+                <p class="price">181,300</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-2.webp" alt="2위" />
+                <!-- 순위 --> 
+                <p class="number">2</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">코어드</h4>
+              <!-- 제품명 -->
+              <p class="item-name">Standard oxford washed shirt (sky blue)</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">30%</p>
+                <p class="price">65,100 </p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-3.webp" alt="3위" />
+                <!-- 순위 --> 
+                <p class="number">3</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">코어드</h4>
+              <!-- 제품명 -->
+              <p class="item-name"> Classic harrington jumper (navy)</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">30%</p>
+                <p class="price">181,300</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-4.webp" alt="4위" />
+                <!-- 순위 --> 
+                <p class="number">4</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">제너럴아이디어</h4>
+              <!-- 제품명 -->
+              <p class="item-name">WOMAN 코튼 루즈핏 포켓 가디건 [LIGHT GREY]</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">29%</p>
+                <p class="price">52,800</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-5.webp" alt="5위" />
+                <!-- 순위 --> 
+                <p class="number">5</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">유라고</h4>
+              <!-- 제품명 -->
+              <p class="item-name">Washable V-neck knit_6colors</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">29%</p>
+                <p class="price">41,350</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-6.webp" alt="6위" />
+                <!-- 순위 --> 
+                <p class="number">6</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">어패럴아카이브</h4>
+              <!-- 제품명 -->
+              <p class="item-name">Crayon wool round cardigan - Mint</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">21%</p>
+                <p class="price">68,910</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+            <li class="card">
+              <!-- 이미지 영역 -->
+              <div class="img-box">
+                <!-- 이미지 -->
+                <img src="images/pic-7.webp" alt="7위" />
+                <!-- 순위 --> 
+                <p class="number">7</p>
+                <!-- 패션위크 -->
+                <p class="fashion-week">패션위크</p>
+              </div>
+              <!-- 브랜드 명 -->
+              <h4 class="brand">타블도트</h4>
+              <!-- 제품명 -->
+              <p class="item-name">타블도트 모닝 플레이트 3P세트 3type</p>
+              <!-- 할인율/가격 -->
+              <div class="text-1">
+                <p class="discount">38%</p>
+                <p class="price">19,920</p>
+              </div>
+              <!-- 쿠폰/무료배송 -->
+              <div class="text-2">
+                <p>쿠폰</p>
+                <p>무료배송</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <!-- 푸터 영역 -->
       <footer>
-        <!-- 사업자 정보 -->
-        <p>(주)무신사 사업자 정보</p>
-        <p>
-          일부 상품의 경우 29CM는 통신판매의 당사자가 아닌 통신판매중개자로서
-          상품, 상품정보, 거래에 대한 책임이 제한될 수 있으므로, 각 상품
-          페이지에서 구체적인 내용을 확인하시기 바랍니다. 당사는 고객님이 현금
-          결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를
-          보장하고 있습니다. 서비스 가입 사실 확인
-        </p>
-        <!-- 개인정보처리방침 -->
-        <ul>
-          <li>오프라인 매장 안내</li>
-          <li>29CM온라인스토어 바로가기</li>
-          <li>사업자정보확인</li>
-          <li>개인정보처리방침</li>
-          <li>이용약관</li>
-          <li>FAQ</li>
-        </ul>
-        <!-- 푸터 로고 -->
-        <img src="images/insta_logo.jpg" alt="Instagram 로고" />
-        <img src="images/youtube_logo.png" alt="YouTube 로고" />
-        <img src="images/apple_logo.png" alt="Apple 로고" />
-        <img src="images/playstore_logo.png" alt="Play Store 로고" />
+        <div class="inner">
+          <!-- 사업자 정보 -->
+          <p class="text-1">(주)무신사 사업자 정보</p>
+          <p class="text-2">
+            일부 상품의 경우 29CM는 통신판매의 당사자가 아닌 통신판매중개자로서
+            상품, 상품정보, 거래에 대한 책임이 제한될 수 있으므로, 각 상품
+            페이지에서 구체적인 내용을 확인하시기 바랍니다. 당사는 고객님이 현금
+            결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여
+            안전거래를 보장하고 있습니다. 서비스 가입 사실 확인
+          </p>
+          <!-- 개인정보처리방침 -->
+          <ul class="text-3">
+            <li>오프라인 매장 안내</li>
+            <span class="line"></span>
+            <li>29CM온라인스토어 바로가기</li>
+            <span class="line"></span>
+            <li>사업자정보확인</li>
+            <span class="line"></span>
+            <li>개인정보처리방침</li>
+            <span class="line"></span>
+            <li>이용약관</li>
+            <span class="line"></span>
+            <li>FAQ</li>
+          </ul>
+          <!-- 푸터 로고 -->
+          <ul class="logo">
+            <li><img src="images/insta.png" alt="Instagram 로고" /></li>
+            <li><img src="images/youtube.png" alt="YouTube 로고" /></li>
+            <li><img src="images/apple.png" alt="Apple 로고" /></li>
+            <li><img src="images/playstore.png" alt="Play Store 로고" /></li>
+          </ul>
+        </div>
       </footer>
     </div>
   </body>
