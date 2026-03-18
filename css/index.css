@@ -272,5 +272,6 @@ footer .logo{
     margin: 20px 0;
 }
 footer img{
+    filter: brightness(0) invert(1);
     width: 30px;
 }
